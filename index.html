@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maps 122 | Find your way</title>
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <script type="text/javascript" src="js/nav.js"></script>
+       </head>
+<body style="background-color: #f2f2f2">
+    
+    </div>
+    <div name="mapa" height="80%">
+      <div class="header">
+        <a href="#default" class="logo">Maps 122</a>
+        <div></div>
+        <div class="header-left">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+</div>
+      <img src="mapa.jpeg" alt="error" usemap="#map" height="100%;" weight="100%;">
+
+      <map name="map">
+          <area shape="rect" coords="90,165,215,257" alt="gym" href="carrusel3.html?nombre=Lab_Computo">
+          <area shape="rect" coords="120,260,190,315" alt="lab_electronica" href="index.html">
+          <area shape="circle" coords="223,425,22" alt="lab_bio" href="index.html">
+          <area shape="circle" coords="140,400,45"  alt="centro_computo" id="centro_computo" href="index.html">
+          <area shape="circle" coords="202,389,11" alt="kiosco" href="index.html">
+          <area shape="circle" coords="198,475,24" alt="j" href="index.html">
+          <area shape="circle" coords="175,516,24" alt="j" href="index.html">
+          <area shape="circle" coords="160,550,24" alt="j" href="index.html">
+          <area shape="circle" coords="138,585,18" alt="j" href="index.html">
+          <area shape="circle" coords="125,614,18" alt="lab_fisica" href="index.html">
+          <area shape="circle" coords="192,607,22" alt="cafe_lona" href="index.html">
+          <area shape="circle" coords="110,500,28" alt="s" href="index.html">
+          <area shape="circle" coords="320,465,20" alt="c" href="index.html">
+          <area shape="circle" coords="350,480,20" alt="c" href="index.html">
+          <area shape="circle" coords="245,480,21" alt="biblio" href="index.html">
+          <area shape="circle" coords="260,545,18" alt="sala_de_maestros" href="index.html">
+          <area shape="circle" coords="380,710,23" alt="talleres" href="index.html">
+          <area shape="circle" coords="330,580,22" alt="b" href="index.html">
+          <area shape="circle" coords="370,600,22" alt="b" href="index.html">
+          <area shape="circle" coords="400,615,18" alt="b" href="index.html">
+          <area shape="circle" coords="440,585,22" alt="a" href="index.html">
+          <area shape="circle" coords="480,600,22" alt="a" href="index.html">
+          <area shape="circle" coords="415,500,22" alt="adm" href="index.html">
+          <area shape="circle" coords="460,520,22" alt="adm" href="index.html">
+          <area shape="circle" coords="490,530,17" alt="adm" href="index.html">
+          <area shape="circle" coords="340,530,22" alt="tarima" href="index.html">
+          <area shape="circle" coords="390,545,38" alt="explanada" href="index.html">
+          <area shape="circle" coords="290,510,25" alt="fuente" href="index.html">
+          <area shape="poly" coords="428,618,400,675,478,710,500,645" alt="gym" id="gym" href="index.html">
+          <area shape="poly" coords="380,465,480,280,310,200,200,370" alt="estacionamiento" href="index.html">
+        </map>
+
+  </div>
+    <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+    </div>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+  }
+</script>
+    
+</body>
+</html>
